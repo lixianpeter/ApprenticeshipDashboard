@@ -4,6 +4,8 @@ This repo provides a step-by-step guide for deploying an R Shinylive app to Gith
 
 For deploying a Python Shinylive app to Github Actions check this [tutorial](https://github.com/RamiKrispin/shinylive).
 
+**All data should be stored on Github** not stored in the folder "myapp" with app.R. Otherwise the shinylive::export(appdir = "myapp", destdir = "docs") would cause a problem.
+
 **Last update:** 2024-01-16
 
 <img src="images/shinylive-app.gif" width="100%" align="center"/></a>
