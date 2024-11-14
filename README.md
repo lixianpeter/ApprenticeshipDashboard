@@ -6,6 +6,8 @@ For deploying a Python Shinylive app to Github Actions check this [tutorial](htt
 
 **All data should be stored on Github** not stored in the folder "myapp" with app.R. Otherwise the shinylive::export(appdir = "myapp", destdir = "docs") would cause a problem.
 
+Currently data are written in the script instead of loading to the script. Further development might be needed.
+
 **Last update:** 2024-01-16
 
 <img src="images/shinylive-app.gif" width="100%" align="center"/></a>
